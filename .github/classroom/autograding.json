@@ -5,8 +5,8 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "10 20 30",
-      "output": "10 20 30",
-      "comparison": "included",
+      "output": "[\\w,\\W]*10[\\w,\\W]*20[\\w,\\W]*30[\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     },
@@ -15,8 +15,8 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "10 30 20",
-      "output": "10 20 30",
-      "comparison": "included",
+      "output": "[\\w,\\W]*10[\\w,\\W]*20[\\w,\\W]*30[\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     },
@@ -25,8 +25,8 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "20 10 30",
-      "output": "10 20 30",
-      "comparison": "included",
+      "output": "[\\w,\\W]*10[\\w,\\W]*20[\\w,\\W]*30[\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     }
